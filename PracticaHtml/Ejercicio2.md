@@ -1,1 +1,79 @@
+2.a) <!-- Código controlado el día 12/08/2009 -->
+
+El código html se trata de un comentario, el comentario puede colocarse en cualquier bloque y no produce ningún efecto visible en la página para el usuario. No posee atributos.
+
+
+
+2.b) <div id=”bloque1”>Contenido del bloque1</div>
+
+Es un contenedor, sirve para agrupar contenido que está relacionado, tiene el atributo id dentro de la etiqueta con el valor “bloque1” para identificarlo, sin embargo este atributo no es obligatorio. Se puede poner tanto dentro del head como dentro del body pero es preferible que se limite su uso dentro del body.
+Este div se ve reflejado en la página como un bloque que ocupa todo el ancho de la página y dentro de él vemos las palabras “Contenido del bloque1”
+
+
+
+2.c) <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
+longdesc="detalles.htm" />
+
+Es una imagen, posee los atributos src(obligatorio) que define la ubicación de la imagen, alt que sirve como una forma alternativa de representar la imagen si esta no carga(no obligatorio pero por accesibilidad altamente recomendable);  id que sirve para identificar el elemento único;   name que sirve para manejar el elemento desde JavaScript;  width y height que modifican las proporciones de la imagen, longdesc, el cual es una descripción más larga de la imagen en caso de que la estándar no sea suficiente. 
+Se puede poner tanto dentro del head como dentro del body pero es preferible que se limite su uso dentro del body.
+Se ve reflejado en la página como una imagen, con 32 píxeles de ancho y 32 píxeles de alto.
+
+
+
+2.d)<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+Representa metadata de la página que no ve el usuario pero es útil para navegadores o demás programas que interactúen con el html.Solo puede ir en el head. Tiene los atributos:
+name(obligatoria): define un nombre para la metadata
+lang: Define para declarar el idioma predeterminado del texto de la página.
+content(obligatoria por el uso del atributo name): define los contenidos relativos al nombre elegido en el atributo “name”.
+http-equiv: aporta información sobre los encabezado de respuesta HTTP. Puede usarse en reemplazo del atributo name.
+
+
+
+
+
+2.e)
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+rel="help">Resumen HTML </a>
+
+La etiqueta <a> se refiere a un hipervínculo, que sirve para redirigir de una página a otra. La parte más importante de <a> es el atributo href donde se pone el vínculo al que se redirige. Posee los atributos (ninguno es obligatorio):
+href
+type
+hreflang
+charset
+rel
+En la página lo vemos como un texto de color azul y subrayado, sin embargo, luego de clickearlo, aparecerá de color violeta indicando que ya hemos usado ese hipervinculo previamente.
+
+
+2.f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+<th scope="col">&nbsp;</th>
+<th scope="col">A</th>
+<th scope="col">B</th>
+<th scope="col">C</th>
+</tr>
+<tr>
+<th scope="row">1º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">2º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+La etiqueta <table> refiere a una tabla, posee los atributos width con el que determine el ancho de la tabla y el atributo summary con el que determina la información que se mostraría si la tabla no pudiera ser cargada por alguna razón. La etiqueta <caption> permite definir el título que va a tener la tabla, tiene el atributo align (no obligatorio) con el valor “top” que hace que este título se muestre por encima de la tabla.
+Dentro de la tabla podemos encontrar tres tipos de etiquetas:
+<tr> permite definir una nueva fila en la tabla.
+Las tablas tienen dos tipos de celdas:
+Una de ellas son los headers o los encabezados de la tabla que se definen con <th>, en este caso posee el atributo scope que permite definir si el encabezado es de una fila o una columna. El atributo scope no es obligatorio.
+Lo otro es para definir celdas normales de la tabla y se realiza con la etiqueta <td>
+El usuario va a ver una tabla de tres columnas “A”, “B” y “C” y dos filas “1º” y “2º”, precedida por un título que dice “Titulo”.
 
