@@ -1,0 +1,44 @@
+1) 
+TML es un lenguaje de marcado de hipertexto (HyperText Markup Language en sus siglas del inglés) es un lenguaje que permite definir y darle estructura a páginas web (podríamos decir también, darle un esqueleto a la página). Fue creado a principios de 1990 como un conjunto de las dos únicas técnicas que permiten vincular documentos en el momento, el lenguaje de etiquetas SGML y los hipervínculos.
+A pesar de su nombre HTML 2.0  fue el primer estándar HTML, este no soportaba tablas y las etiquetas body, html y head eran opcionales. HTML 3.2 incorpora los últimos avances en páginas web:  texto que fluye alrededor de imágenes como también applets de Java. HTML 4.01 fue la ultima especificacion oficial de HTML publicada en 1999 centrada en el desarrollo estandar XHTML(HTML extendido) pero Apple, Mozilla y Opera formaron la asociación WHATWG (Web Hypertext Application Technology Working Group) mostrando la falta de interes del W3C (Consorcio internacional de la WWW) en HTML lanzando asi en 2008 un borrador de HTML 5. Este ultimo fue nombrado estandar oficial por la W3C a finales de 2014 incorporando elementos no contemplados en HTML 4.01, nuevas etiquetas, audio, videos (sin necesidad de plugins o complementos). Este lenguaje de marcado sigue evolucionando hasta el dia de hoy con nuevas versiones de HTML 5.
+
+Las diferentes versiones de HTML fueron HTML 2.0, HTML 3.2, HTML 4.01 y HTML 
+
+Fuente del 1: https://www.freecodecamp.org/espanol/news/que-es-html-definicion-y-significado-de-lenguaje-de-marcado-de-hipertexto/
+https://es.wikipedia.org/wiki/HTML
+https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=444
+
+2)
+Los principios básicos que recomienda W3C para la creación de páginas web son:
+Compatibilidad(Compatibility): Tener en cuenta la necesidad de soportar contenido viejo de HTML, adoptar y adaptar tecnología preexistente cuando sea posible. Hacer los documentos compatibles con cualquier tipo de navegador. Y a la hora de realizar cambios a las características de legado tener en cuentas las grandes páginas web principales, ¿Funciona de manera correcta? ¿Para qué cambiarlo?, entre otras consideraciones.
+Utilidad(Utility): Se refiere a diseñar la página asegurándose que se use HTML de manera efectiva como está diseñado, multipropósito.
+Resolver problemas del mundo real, arquitecturas abstractas no se ocupan de las necesidades particulares son menos prácticas que las soluciones pragmáticas.
+La dificultad o “costo” del usuario debe ser mayor prioridad que la del autor, la cual debe ser mayor prioridad que el que implemente la característica; y asi sucesivamente, sin embargo se debe optar por mejorar múltiples instancias en una.
+HTML debe permitir separar el contenido de la presentación, por esto es importante el foco en estructura.
+Interoperabilidad(Interoperability): principio que existe con el proposito de que las diferentes implementaciones de HTML sean verdaderamente interoperables.
+Comportamientos claramente definidos en contraposición a comportamientos definidos por implementación; esto hace mas fácil el uso a autores que trabajan con diferentes agentes de usuario.
+Buen manejo de errores
+Acceso Universal(Universal access): “Las características deben ser diseñadas para tener un acceso universal - que operen a través de tantas plataformas como sea posible, soporte todos los lenguajes del mundo y sus scripts, y que sea accesible a todos los usuarios, incluyendo aquellos con discapacidades” -W3C “HTML Design Principles” : https://principles.design/examples/html-design-principles
+
+Fuente del 2: 
+https://principles.design/examples/html-design-principles
+https://www.w3.org/TR/html-design-principles/#utility
+
+3) 
+Desaprobado: Se define a un elemento o atributo como desaprobado cuando cuando este ha quedado anticuado debido a la presencia de una estructura nueva. Cabe aclarar que estos elementos o atributos pueden declararse obsoletos en versiones futuras de HTML.
+Obsoleto: Se define a un elemento o atributo como obsoleto cuando ya no existe garantía de soporte por parte de un agente de usuario.
+
+4)
+Una definición de tipo de documento o DTD es una descripción de estructura y sintaxis de un documento XML o SGML. Su función básica es la descripción de la estructura de datos, para usar una estructura común y mantener la consistencia entre todos los documentos que utilicen la misma DTD. De esta forma, dichos documentos pueden ser validados, conocen la estructura de los elementos y la descripción de los datos que trae consigo cada documento. La DTD que debe utilizar el procesador XML para validar el documento XML se indica mediante la etiqueta DOCTYPE. La DTD puede estar incluida en el propio documento, ser un documento externo o combinarse ambas.
+Los posibles DTD’s contemplados en la especificación de HTML 4.1 son los siguientes:
+Atributos vspace/hspace/border de IMG, OBJECT, APPLET en píxeles.
+Se ha cambiado el modelo de contenido de MAP a ((%block;) | AREA)+
+Se ha añadido el atributo "ismap" a INPUT
+Se ha añadido el atributo accept al fragmento del DTD del elemento FORM.
+Se ha cambiado el comentario del atributo axis para referirse a una lista separada por comas.
+El atributo archive del elemento OBJECT toma un valor de tipo CDATA en lugar de tipo %URI, ya que el valor es una lista de URIs separados por espacios.
+
+5)
+Los metadatos son datos que el usuario de la página no ve ni puede modificar y son definidos por el creador de la página. Sirven para establecer datos sobre el propio documento como lo pueden ser: autor, descripción del documento, lenguaje nativo de la página, palabras clave que generalicen los contenidos del documento, color que debe tener el navegador para encajar con la estética de la página, etc. Muchos de estos metadatos son usados por navegadores para mejorar la filtración de contenidos en las búsquedas o para mostrar el contenido de la página de manera correcta.
+	En HTML, los metadatos se especifican con la etiqueta <meta> con sus respectivos atributos. Por ejemplo, para especificar un autor podemos escribir en el <head> lo siguiente:
+	<META name="Autor" content="Pepe Argento">
