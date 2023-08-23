@@ -1,4 +1,4 @@
-2.a) //<!-- Código controlado el día 12/08/2009 -->
+2.a) <!-- Código controlado el día 12/08/2009 -->
 
 El código html se trata de un comentario, el comentario puede colocarse en cualquier bloque y no produce ningún efecto visible en la página para el usuario. No posee atributos.
 
@@ -76,4 +76,5 @@ Las tablas tienen dos tipos de celdas:
 Una de ellas son los headers o los encabezados de la tabla que se definen con <th>, en este caso posee el atributo scope que permite definir si el encabezado es de una fila o una columna. El atributo scope no es obligatorio.
 Lo otro es para definir celdas normales de la tabla y se realiza con la etiqueta <td>
 El usuario va a ver una tabla de tres columnas “A”, “B” y “C” y dos filas “1º” y “2º”, precedida por un título que dice “Titulo”.
+
 
