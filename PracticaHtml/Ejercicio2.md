@@ -1,4 +1,4 @@
-2.a) <!-- Código controlado el día 12/08/2009 -->
+2.a) //<!-- Código controlado el día 12/08/2009 -->
 
 El código html se trata de un comentario, el comentario puede colocarse en cualquier bloque y no produce ningún efecto visible en la página para el usuario. No posee atributos.
 
