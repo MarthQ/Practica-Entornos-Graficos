@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejercitacion 4</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 3px solid hsla(0, 0%, 50%, 0.51);
+            border-collapse: collapse;
+        }
+
+        th {
+            padding-left: 10px;
+        }
+
+        td {
+            padding-right: 50px;
+        }
+
+        hr {
+            height: 4px;
+            background-color: black;
+        }
+
+        input,
+        textarea {
+            display: inline;
+            border-radius: 0px;
+            border: 2px solid black;
+        }
+
+        input {
+            margin-left: 14px;
+        }
+
+        button {
+            background-color: white;
+            height: 40px;
+            width: 100px;
+            font-size: 17px;
+        }
+
+        .pecausa {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://utn.edu.ar/es/"><img src="PracticaHtml/assets/imutn.jpg" alt="Logo de la UTN FRRO" width="50" height="70" /></a>
+    <hr>
+    <h1>AÑO 2008</h1>
+
+
+    <table width="50%">
+        <tr>
+            <th scope="col" colspan="2">Exámenes</th>
+        </tr>
+        <tr>
+            <td scope="row" rowspan="2">Fecha: <input type="date"></td>
+            <td scope="row" align="right">Aprobados</th>
+        </tr>
+        <tr>
+            <td scope="row" align="right">24/30</th>
+        </tr>
+    </table>
+
+
+    <ol> <!--Esto es para hacer una lista ordenada y que aparezca 1º, 2º, etc-->
+        <a href="#Enunciado">
+            <li>Enunciado del examen</li>
+        </a>
+        <a href="#Resolucion" target="_blank">
+            <li>Resolución</li>
+        </a>
+    </ol>
+
+
+    <p>Puede realizar consultas completando el siguiente formulario:</p>
+
+
+    <form>
+        <b>e-mail:
+            <input size="18" type="email" name="email" value="">
+            <br>
+            consulta:
+            <textarea style="resize:none; margin-top: 3px; border-radius:0px; border: 2px solid black;" cols="18"
+                rows="3"></textarea>
+        </b>
+        <br>
+        <button style="margin-left: 50px" type="submit"> <b>ENVIAR</b> </button>
+        <button type="reset"> <b>BORRAR</b> </button>
+    </form>
+    <h3>Enunciado del examen</h3>
+    <p class="pecausa">Ejercicio 1: .........................
+        <br>
+        .............................................
+    </p>
+    <p class="pecausa">Ejercicio 2: .........................
+        <br>
+        .............................................
+    </p>
+
+
+    <p>
+        Para más información dirigirse a <a href=mailto:"contactoxx.com@">contacto@xx.com</a>
+    </p>
+
+
+</body>
+
+</html>
