@@ -77,4 +77,50 @@ Una de ellas son los headers o los encabezados de la tabla que se definen con <t
 Lo otro es para definir celdas normales de la tabla y se realiza con la etiqueta <td>
 El usuario va a ver una tabla de tres columnas “A”, “B” y “C” y dos filas “1º” y “2º”, precedida por un título que dice “Titulo”.
 
+3.a) 
+<a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+Esta sentencia representa un texto que dice “Click aqui para ir a Google” con un hipervínculo a www.google.com.ar, lo que hace es que al clickearlo nos redirige en la misma pestaña a www.google.com.ar
+
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+Esta sentencia refleja esencialmente lo mismo que el anterior, con la diferencia de que abre una nueva pestaña para dirigirnos a www.google.com.ar	
+
+<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+Esta tercer sentencia no refleja nada pues no hay contenido sobre el que poner el hipervínculo.
+
+<a href="#">Click aquí para ir a Google</a>
+
+3.b)
+<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+Esta sentencia muestra una Imagen (de no cargar, mostrará el texto “imagen1” seguido de un logo de imagen) y seguido a esa imagen habrá un texto que dice “Click aquí”, que, al clickear nos redirigirá a www.google.com.ar.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+Esta sentencia muestra una Imagen (de no cargar, mostrará el texto “imagen1” seguido de un logo de imagen), ahora si clickeamos la imagen nos redirigirá a www.google.com.ar, seguido a esa imagen habrá un texto que dice “Click aquí”.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+Esta sentencia muestra una Imagen (de no cargar, mostrará el texto “imagen1” seguido de un logo de imagen) seguido a esa imagen habrá un texto que dice “Click aquí”. Tanto si clickeamos el texto como si clickeamos la imagen seremos redirigidos a www.google.com.ar.
+
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a
+href="http://www.google.com.ar">Click aquí</a></p>
+Esta sentencia funciona casi de manera idéntica que la anterior, nada más que ahora, la imagen y el texto “Click aqui” están hipervinculados en etiquetas diferentes. Este cambio genera que el espacio que hay entre la Imagen y el texto “Click aquí” no sea clickeable
+----------------------------------------------------------------------assets/imagen1.png---------------------------------------------------------------
+
+3.c)
+----------------------------------------------------------------------assets/imagen2.png---------------------------------------------------------------
+Bloque 1: Presenta una etiqueta de lista desordenada <ul>, la preview nos muestra una lista que empieza con “ticks” y no con números en orden; xxx, yyy, zzz son items de la lista con el tag <li>
+Bloque 2: Presenta la etiqueta lista ordenada <ol> que nos muestra en la preview elementos en una lista ordenada desde el 1 al 3. 
+Bloque 3: Presenta 3 listas ordenadas; para el primer elemento xxx, una lista ordenada con un <li> normal; para el segundo elemento una lista ordenada con el <li> modificado para mostrar el valor “2” y para el tercer elemento otra lista que al igual que el <li> ha sido modificado para mostrar el valor “3”.
+Bloque 4: Presenta una viñeta de cita en bloque (usada para citar de una fuente distinta), con un <p> dentro con saltos de línea para hardcodear/imitar una lista ordenada
+
+3.i)
+----------------------------------------------------------------------assets/imagen3.png---------------------------------------------------------------
+Bloque 1: Nos muestra 2 html tags de GUI
+<label> que permite ponerle nombre a un elemento de interfaz de usuario
+<button> que permite crear un botón (en este caso al cual le pusimos una imagen)
+El “click aquí” aparece resaltado por la etiqueta <b>, todo el contenido entre <button></button> aparece dentro del botón.
+----------------------------------------------------------------------assets/imagen4.png---------------------------------------------------------------
+Bloque 2: Tenemos otra forma de crear un botón, en este caso más acotada pero con la posible desventaja de que TODO nuestro label será el boton, no solamente la parte gráfica(el rectángulo)
+----------------------------------------------------------------------assets/imagen5.png---------------------------------------------------------------
+
+
+
 
