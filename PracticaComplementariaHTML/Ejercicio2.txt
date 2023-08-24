@@ -1,0 +1,23 @@
+1) ¿Qué formatos soporta ? 
+2) Crear un elemento audio Ejemplo src: https://html5tutorial.info/media/vincent.mp3
+
+Fuentes:
+https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/html5-working-with-media-in-html5
+
+1)	HTML5 es compatible con AAC, MP3 y Ogg Vorbis para audio y Ogg Theora, WBEM y MPEG-4 para el vídeo. Pero aunque HTML5 sea compatible con estos formatos eso no quiere decir que todos los navegadores lo sean, por eso hay que tener cuidado a la hora de elegir qué formato usaremos en nuestros proyectos.
+
+2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Elemento de audio homero-diciendo-hola.mp3</p>
+  <audio controls src="assets/audio/homero-diciendo-hola.mp3"></audio>
+</body>
+</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen1.png---------------------------------------------------------------

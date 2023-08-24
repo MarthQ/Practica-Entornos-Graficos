@@ -1,0 +1,109 @@
+4.A) Crear un formulario con un campo requerido
+4.B) Crear un formulario con un campo de tipo email y validar que funcione
+4.C) Crear un formulario con un campo de tipo fecha y validar que funcione
+4.D) Crear un formulario con un campo de tipo color y validar que funcione
+4.E) Crear un formulario con un campo de tipo number y validar que funcione. Además configurar
+valores mínimos y máximos permitidos
+
+4.A)
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	</head>
+	<body>
+	<form action="">
+	<label for="input1">Nombre</label>
+	<input type="text" id="input1" required>
+	<input type="submit">
+	</form>
+	</body>
+	</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen3.png---------------------------------------------------------------
+
+
+4.B)
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="">
+			<label for="input1">Email</label>
+			<input type="email" id="input1" required>
+			<input type="submit">
+		</form>
+	</body>
+	</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen4.png---------------------------------------------------------------
+
+4.C)
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="">
+			<label for="input1">Fecha</label>
+			<input type="DATE" id="input1">
+			<input type="submit">
+		</form>
+	</body>
+	</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen5.png---------------------------------------------------------------
+
+4.D)
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="">
+			<label for="input1">Color</label>
+			<input type="color" id="input1" required>
+			<input type="submit">
+		</form>
+	</body>
+	</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen6.png---------------------------------------------------------------
+
+4.E)
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="">
+			<label for="input1">Número entre 1 y 100</label>
+			<input type="number" id="input1" required max=100 min=1>
+			<input type="submit">
+		</form>
+	</body>
+	</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen7.png---------------------------------------------------------------

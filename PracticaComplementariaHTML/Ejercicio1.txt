@@ -1,0 +1,20 @@
+Ejercitación 1
+1. ¿Ventajas de HTML5? 
+2. ¿Por qué utilizarlo? 
+3. Nombre ventajas
+
+Fuentes:
+https://ebac.mx/blog/que-es-html5
+https://www.deustoformacion.com/blog/programacion-tic/por-que-deberias-aprender-programar-html5
+
+1)	Html 5 es gratuito, es un lenguaje de marcado fácil de aprender, ordenado y es compatible con la mayoría de navegadores web populares. También soporta multimedia y a través de APIs podemos incluir elementos más complejos como dibujos 3D o mapas. Permite realizar consultas SQL y crear aplicaciones web (tanto de escritorio como otras completamente responsivas).
+
+2)	La principal razón para el uso de HTML 5 es que a día de hoy se ha convertido en el estándar de programación web. Según un análisis de VIsion Mobile, más del 50% de las aplicaciones móviles lo utilizan junto a JavaScript y CSS; su fácil integración, multitud de funcionalidades y optimización de código hacen esto posible.
+ 
+3)	-Es gratuito
+	-Lenguaje facil de aprender
+	-Ordenado y compatible con la mayoria de navegadores
+	-Soporte nativo multimedia de video y audio
+	-Soporte a recursos complejos a traves de APIs
+	-Acceso a consultas SQL
+	-Posibilidad de crear aplicaciones web completamente responsives solamente por HTML5.

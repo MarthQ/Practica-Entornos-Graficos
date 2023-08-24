@@ -1,0 +1,24 @@
+1) ¿Qué formatos soporta ? 
+2) Crear un elemento video. Ejemplo src: https://html5tutorial.info/media/vincent.mp3
+
+Fuentes:
+https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/html5-working-with-media-in-html5
+
+1)	HTML5 es compatible con Ogg Theora, WBEM y MPEG-4 para el vídeo. Pero aunque HTML5 sea compatible con estos formatos eso no quiere decir que todos los navegadores lo sean.
+
+
+2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Elemento de video Martin no sabia que habia mesa</h1>
+  <video height="400" width="800" controls src="assets/video/martin-habia-mesas.mp4"></video>
+</body>
+</html>
+
+----------------------------------------------------------------------PracticaComplementariaHTML/assets/Imagen2.png---------------------------------------------------------------
