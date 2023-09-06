@@ -1,0 +1,45 @@
+1-
+:is(h1, h2, h3, h4, h5, h6)
+{
+    	color: red;
+}
+
+2-
+*[href]
+{
+   	color: black;
+}
+
+3-
+#ultimo ul li {
+  color: yellow;
+}
+
+#ultimo ul li a
+{
+ 	 color: blue; 
+}
+
+4-
+*#importante {
+ 	 color:green;
+}
+*#importante :is(h1, h2, h3, h4, h5, h6){
+	color:red: 
+}
+
+5-
+h1[title]{
+	color:blue;
+}
+
+6-
+a:link {
+color: blue;
+  	text-decoration: none;
+}
+
+a:visited {
+  	color: purple;
+text-decoration: none;
+}
