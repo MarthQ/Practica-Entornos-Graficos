@@ -1,0 +1,27 @@
+1) CSS(Cascading Style Sheets), se trata de un lenguaje destinado al diseño gráfico utilizado para definir y configurar la presentación visual de un documento estructurado redactado en un lenguaje de marcado. Es ampliamente empleado con el propósito de establecer el aspecto visual de los documentos web y las interfaces de usuario desarrolladas en HTML o XHTML. En conjunto con HTML y JavaScript, CSS representa una tecnología ampliamente adoptada por numerosos sitios web con el fin de forjar páginas web con un atractivo visual considerable, así como para concebir interfaces de usuario destinadas a aplicaciones web y entornos gráficos de usuario para diversas aplicaciones móviles (como es el caso de Firefox OS).
+
+
+2) Css permite aplicar varias declaraciones a distintas partes del documento asociando condiciones con bloques de declaraciones. Cada declaración (válida) es precedida por un selector, es decir, una condición que selecciona algunos elementos de la página. El bloque que forma el par selector-declaraciones recibe el nombre de set de reglas, o simplemente una regla.
+
+
+3)
+Las tres formas de dar estilo a un documento son:
+*Hoja de estilo externa: Este es el método más común y útil para adjuntar CSS a un documento, porque puedes vincular el CSS a varias páginas y dar estilo a todas ellas con la misma hoja de estilo. En la mayoría de los casos, las diferentes páginas de un sitio web se verán más o menos iguales, de modo que puedes usar el mismo conjunto de reglas para el aspecto y la interacción básicos.
+Una hoja de estilo externa significa que el CSS está escrito en un archivo independiente con una extensión .css y que lo vinculas desde un elemento <link> de HTML. El archivo puede encontrarse en el mismo directorio que el html o en uno diferente.
+
+*Hoja de estilo interna: Una hoja de estilo interna es cuando no hay ningún archivo CSS externo, sino que colocas tu CSS dentro de un elemento <style> contenido dentro del elemento <head> del HTML.
+*Estilos en línea: Los estilos en línea son declaraciones CSS que afectan a un solo elemento, contenido dentro de un atributo de style:
+
+4) Selector de tipo: Selecciona todos los elementos que coinciden con el nombre del elemento especificado.
+Ejemplo: input se aplicará a cualquier elemento <input>.
+
+Selector de clase: Selecciona todos los elementos que tienen el atributo de class especificado.
+Ejemplo : .index seleccionará cualquier elemento que tenga la clase "index".
+
+Selector de ID: Selecciona un elemento basándose en el valor de su atributo id. Solo puede haber un elemento con un determinado ID dentro de un documento.
+Ejemplo:#toc se aplicará a cualquier elemento que tenga el ID "toc".
+
+
+5) Una pseudo-clase es un selector que marca los elementos que están en un estado específico, por ejemplo, los que son el primer elemento de su tipo, o aquellos por los que el cursor les pasa por encima. Tienden a actuar como si se hubiera aplicado una clase en una parte determinada del documento y, a menudo, ayudan a reducir el exceso de clases y proporcionan un marcado más flexible y fácil de mantener.
+6) Una de las características principales de CSS es la herencia de los estilos definidos para los elementos. Cuando se establece el valor de una propiedad CSS en un elemento, sus elementos descendientes heredan de forma automática el valor de esa propiedad.
+7) En un primer nivel de simplicidad, la cascada en las hojas de estilo significa que el orden de las reglas importa en CSS: cuando dos reglas tienen la misma especificidad, se aplica la que aparece en último lugar en el CSS.
