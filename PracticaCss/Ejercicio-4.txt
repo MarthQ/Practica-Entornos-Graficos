@@ -1,0 +1,5 @@
+Bloque 1:
+En este código se le asigna la clase “contenido” sólamente al texto modificando la fuente que ya había sido declarada.
+
+Bloque 2: 
+En este otro ejemplo la clase “contenido” se asigna al cuerpo entero aplicando la fuente anterior en negrita a la enteridad del código.
