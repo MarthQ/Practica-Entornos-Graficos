@@ -30,4 +30,8 @@ Respuesta: En la primer bloque se definen reglas para todas las etiquetas <p> qu
 - Que el borde de la caja en donde se encuentra la etiqueta tenga 2 píxeles de largo.
 - En el tercer bloque se definen reglas para todas las etiquetas que cuenten con el id “distinto”, entre las reglas encontramos:
 - Que toda la caja en donde se encuentra la etiqueta tenga de fondo el color:
+---------------------------------------------PracticaCss/assets/imagen1.png----------------------------------------------
 - Que todo el texto que se encuentre dentro de las etiquetas sea de color rojo.
+
+Visualización del código:
+---------------------------------------------PracticaCss/assets/imagen2.png----------------------------------------------
