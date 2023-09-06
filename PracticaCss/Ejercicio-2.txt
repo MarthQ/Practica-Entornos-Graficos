@@ -1,0 +1,33 @@
+p#normal { 
+font-family: arial,helvetica; 
+font-size: 11px; 
+font-weight: bold; 
+} 
+
+*#destacado { 
+border-style: solid; 
+border-color: blue; 
+border-width: 2px; 
+} 
+
+#distinto { 
+background-color: #9EC7EB; 
+color: red; 
+}
+<p id="normal">Este es un párrafo</p>
+<p id="destacado">Este es otro párrafo</p>
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+<p id="distinto">Este es el último párrafo</p>
+
+
+Respuesta: En la primer bloque se definen reglas para todas las etiquetas <p> que cuenten con el id “normal”, entre las reglas encontramos:
+- Que use la fuente Arial o, alternativamente “Helvetica”
+- Que el tamaño de la fuente se de 11 pixeles
+- Que todo texto perteneciente a esta etiqueta este en negrita
+- En el segundo bloque se definen reglas para todas las etiquetas que cuenten con el id “destacado”, entre las reglas encontramos:
+- Que el borde de la caja en donde se encuentra la etiqueta sea de un color opaco.
+- Que el borde de la caja en donde se encuentra la etiqueta sea de color azul.
+- Que el borde de la caja en donde se encuentra la etiqueta tenga 2 píxeles de largo.
+- En el tercer bloque se definen reglas para todas las etiquetas que cuenten con el id “distinto”, entre las reglas encontramos:
+- Que toda la caja en donde se encuentra la etiqueta tenga de fondo el color:
+- Que todo el texto que se encuentre dentro de las etiquetas sea de color rojo.
