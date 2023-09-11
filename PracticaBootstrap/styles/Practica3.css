@@ -1,0 +1,44 @@
+.header {
+  background-color: purple;
+  border-bottom: 3px solid white;
+}
+
+.crema {
+  background-color: bisque;
+  border: 2px solid white;
+}
+
+.top-panel {
+  background-color: rgb(160, 219, 145);
+  border: 2px solid white;
+}
+
+.mid-panel {
+  background-color: rgb(164, 157, 171);
+  border: 2px solid white;
+}
+
+.bottom-panel {
+  background-color: rgb(66, 143, 190);
+  border: 2px solid white;
+}
+
+.cards {
+  padding: 30px;
+  padding-left: 50px;
+}
+
+.cards-sizing {
+  width: 14rem;
+}
+
+@media (max-width: 1300px) {
+  .cards {
+    padding: 10px;
+    padding-left: 20px;
+  }
+
+  .cards-sizing {
+    width: 9rem;
+  }
+}
