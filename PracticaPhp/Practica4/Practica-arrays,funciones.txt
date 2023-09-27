@@ -1,0 +1,12 @@
+---PHP: arrays, funciones---
+1)
+	a) Son equivalentes
+
+2)
+	a)bar1
+	b)5942
+	c)No tiene salida
+
+3) 
+	a)Has entrado en esta página a las 23 horas, con 59 minutos y 32 segundos, del 27/9/2023
+	b)5+6=1
