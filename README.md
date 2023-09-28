@@ -21,3 +21,8 @@ En la carpeta PracticaCss encontramos los ejercicios 1-2 de la respectiva práct
 
 En la carpeta PracticaBootstrap encontramos los códigos html referentes a los ejercicios 1-5 de la respectiva práctica.
 El ejercicio 3 usa archivos de la carpeta interna /Assets y a su vez tambien utiliza un css que se encuentra en la carpeta interna /styles.
+
+## Práctica Php
+
+En la carpeta ./PracticaPhp/Practica4 encontramos los códigos php y archivos txt referentes a los ejercicios de la practica 4.
+Dividido aproxidamente por tema como aparece en el apunte practico
