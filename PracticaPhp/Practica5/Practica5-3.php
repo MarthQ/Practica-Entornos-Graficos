@@ -18,11 +18,11 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    
     <div class="container">
         <div class="row">
           <div class="col" style="background-color: rgb(174, 214, 173);">
-            <form>
+            <form method="post">
                 <div class="form-group">
                     <label>Tu email</label>
                     <input type="email" name="Email-1" class="form-control" required>
@@ -44,23 +44,23 @@
                     </textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary mb-2">Enviar Formulario</button>
+                <button type="submit" name='send_recommendation' class="btn btn-primary mb-2">Enviar Formulario</button>
               </form>
             </div>
         </div>
         <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-              $name = $_POST['name'];
-              $email = $_POST['Email-2'];
+              $email1 = $_POST['Email-1'];
+              $email2 = $_POST['Email-2'];
               $subject = 'Tu amigo te recomendo este sitio';
               $body = $_POST['body'];
               $sitio = $_POST['url'];
 
               $message = $sitio . "\n" . $body;
 
-              $to = $email;
-              $headers = "From: $name <$Email-1>" . "\r\n";
+              $to = $email2;
+              $headers = "From: $email1" . "\r\n";
               $outcome = mail($to, $subject, $message, $headers);
 
               if ($outcome) {
