@@ -1,0 +1,45 @@
+Ejercicio 1)
+	Consulta a una base de datos: Para comenzar la comunicación con un servidor de base de datos MySQL, es necesario abrir una conexión a ese servidor. Para inicializar esta conexión, PHP ofrece la función: 
+	mysql_connect();
+
+	Todos sus parámetros son opcionales, pero hay tres de ellos que generalmente son necesarios:
+	El nombre del host, el usuario y contraseña(parámetros (server, username, password).
+
+	Una vez abierta la conexión, se debe seleccionar una base de datos para su uso, mediante la función.
+	mysql_select_db();
+
+	Esta función debe pasar como parámetro.
+	El nombre de la base de datos(parámetro database_name)
+	
+
+	La función mysqli_query () se utiliza para
+	enviar una sentencia en lenguaje sql a la base de datos seleccionada del server para realizar una acción relacionada con la base de datos.
+
+	y requiere como parámetros
+	un string que contenga la consulta en lenguaje SQL y la variable que contiene la conexión a la base de datos. Esta útima es opcional y de no ser especificada, usará la ultima conexión realizada por mysql_connect()
+
+	La cláusula or die() se utiliza para
+	poder mostrar un mensaje al usuario si algun problema sucede a la hora de conectarse a la base de datos, ya sea por problemas de conexión o demás posibles problemas.
+
+	y la función mysqli_error () se puede usar para
+	devuelve el texto del mensaje de error de la operación MySQL anterior
+
+	Si la función mysqli_query() es exitosa, el conjunto resultante retornado se almacena en una variable, por ejemplo
+$vResult, y a continuación se puede ejecutar el siguiente código (explicarlo):
+<?php
+while ($fila = mysqli_fetch_array($vResultado))
+{
+?>
+<tr>
+ <td><?php echo ($fila[0]); ?></td>
+ <td><?php echo ($fila[1]); ?></td>
+ <td><?php echo ($fila[2']); ?></td>
+</tr>
+<tr>
+ <td colspan="5">
+<?php
+}
+mysqli_free_result($vResultado);
+mysqli_close($link);
+?>
+	Lo quye hace el código es ordenar el resultado para mostrarlo en una tabla HTML. Luego la sentencia mysqli_free_result(); libera toda la memoria cache que esta asociada con la variable del resultado de las queries. Y, por ultimo, mysqli_close cierra la conexión.
