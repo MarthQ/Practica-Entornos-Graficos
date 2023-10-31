@@ -17,7 +17,7 @@
     $vResultado = mysqli_query($link, $vSql) or die(mysqli_error($link));;
     $fila = mysqli_fetch_array($vResultado);
     if (mysqli_num_rows($vResultado) == 0) {
-        echo ("Ciudad Inexistente...!!! <br>");
+        echo ("<br>Id de ciudad Inexistente...!!! <br>");
         echo ("<A href='FormModiIni.html'>Continuar</A>");
     } else {
     ?>
@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td>Indique si tiene metro: </td>
-                    <input type="checkbox" name="tieneMetro">
+                    <td><input type="checkbox" name="tieneMetro"></td>
                 </tr>
                 <tr>
                     <td colspan="2"> <INPUT TYPE="SUBMIT" name="Submit" value="Modificar">

@@ -22,7 +22,7 @@
     $vResultado = mysqli_query($link, $vSql);
     $total_registros = mysqli_num_rows($vResultado);
     $total_paginas = ceil($total_registros / $Cant_por_Pag);
-    echo "Numero de registros encontrados: " . $total_registros . "<br>";
+    echo "<br>Numero de registros encontrados: " . $total_registros . "<br>";
     echo "Se muestran paginas de " . $Cant_por_Pag . " registros cada una<br>";
     echo "Mostrando la pagina " . $pagina . " de " . $total_paginas . "<p>";
     $vSql = "SELECT * FROM capitales" . " limit " . $inicio . "," . $Cant_por_Pag;
@@ -57,7 +57,7 @@
                     ?>
                 </td>
             </tr>
-        <?php } >
+        <?php } ?>
         <?php
             mysqli_free_result($vResultado);
             mysqli_close($link);

@@ -14,13 +14,13 @@
     $vSql = "SELECT * FROM capitales WHERE id='$vId'";
     $vResultado = mysqli_query($link, $vSql);
     if (mysqli_num_rows($vResultado) == 0) {
-        echo ("Usuario Inexistente...!!! <br>");
+        echo ("<br>Id de capital Inexistente...!!! <br>");
         echo ("<A href='FormBajaIni.html'>Continuar</A>");
     } else {
         //Arma la instrucción SQL y luego la ejecuta
         $vSql = "DELETE FROM capitales WHERE id = '$vId' ";
         mysqli_query($link, $vSql);
-        echo ("El Usuario fue Borrado<br>");
+        echo ("<br>La capital fue Borrada<br>");
         echo ("<A href='Menu.html'>Volver al Menu del ABM</A>");
     }
     // Liberar conjunto de resultados

@@ -28,3 +28,7 @@ En la carpeta ./PracticaPhp/Practica4 encontramos los códigos php y archivos tx
 Dividido aproxidamente por tema como aparece en el apunte practico
 
 En la carpeta ./PracticaPhp/Practica5 encontramos los codigos php referentes a los ejercicios de la practica 5.
+
+## Práctica Practica Bases de Datos
+
+En la carpeta ./PracticaBaseDeDatos encontramos las respuestas a la Practica N°6 sobre manejo a bases de datos.
