@@ -18,44 +18,50 @@
     } else {
         $inicio = ($pagina - 1) * $Cant_por_Pag;
     } // total de páginas
-    $vSql = "SELECT * FROM doc_utn";
+    $vSql = "SELECT * FROM capitales";
     $vResultado = mysqli_query($link, $vSql);
     $total_registros = mysqli_num_rows($vResultado);
     $total_paginas = ceil($total_registros / $Cant_por_Pag);
     echo "Numero de registros encontrados: " . $total_registros . "<br>";
     echo "Se muestran paginas de " . $Cant_por_Pag . " registros cada una<br>";
     echo "Mostrando la pagina " . $pagina . " de " . $total_paginas . "<p>";
-    $vSql = "SELECT * FROM doc_utn" . " limit " . $inicio . "," . $Cant_por_Pag;
+    $vSql = "SELECT * FROM capitales" . " limit " . $inicio . "," . $Cant_por_Pag;
     $vResultado = mysqli_query($link, $vSql);
     $total_registros = mysqli_num_rows($vResultado);
     ?>
     <table>
         <tr>
-            <td><b>Nombre y Apellido</b></td>
-            <td><b>DNI</b></td>
-            <td><b>Email</b></td>
+            <td><b>Id</b></td>
+            <td><b>ciudad</b></td>
+            <td><b>Pais</b></td>
+            <td><b>Habitantes</b></td>
+            <td><b>Superficie</b></td>
+            <td><b>Tiene metro</b></td>
         </tr>
         <?php
         while ($fila = mysqli_fetch_array($vResultado)) {
         ?>
             <tr>
-                <td><?php echo ($fila['apel_nom']); ?></td>
-                <td><?php echo ($fila['dni']); ?></td>
-                <td><?php echo ($fila['email']); ?></td>
-                <td><?php echo ($fila['legajo']); ?></td>
-            </tr>
-            <tr>
-                <td colspan="5">
-
-                <?php
-            }
-            // Liberar conjunto de resultados
-            mysqli_free_result($vResultado);
-            // Cerrar la conexion
-            mysqli_close($link);
-                ?>
+                <td><?php echo ($fila['id']); ?></td>
+                <td><?php echo ($fila['ciudad']); ?></td>
+                <td><?php echo ($fila['pais']); ?></td>
+                <td><?php echo ($fila['habitantes']); ?></td>
+                <td><?php echo ($fila['superficie']); ?></td>
+                <td>
+                    <?php
+                    if ($fila['tieneMetro'] == 1) {
+                        echo ("SI");
+                    } else {
+                        echo ("NO");
+                    }
+                    ?>
                 </td>
             </tr>
+        <?php } >
+        <?php
+            mysqli_free_result($vResultado);
+            mysqli_close($link);
+        ?>
     </table>
     <?php
     if ($total_paginas > 1) {
